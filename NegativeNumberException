@@ -1,0 +1,7 @@
+public class NegativeNumberException extends Exception{
+    private int minNum;
+    public NegativeNumberException(String message, int minNum){
+            super(message);
+            this.minNum = minNum;
+    }
+}
